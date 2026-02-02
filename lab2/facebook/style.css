@@ -1,0 +1,107 @@
+body{
+    background-color: #f2f4f7;
+    padding: 8vw 0 10vw 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 0 0 0 15vw;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#logo-div {
+    padding-top: 2vh;
+    width: 33vw;
+}
+
+#logo {
+    width: 21vw;
+}
+
+#slogan{
+    font-size: 28px;
+    margin-left: 2vw;
+}
+
+#reg_create {
+    margin-left: 10vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+#registration {
+    background-color: #fff;
+    height: 35vh;
+    padding: 2.5vh;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 15px;
+}
+
+
+input {
+    width: 95%;
+    margin-bottom: 2.5vh;
+    height: 6vh;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 8px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#create_page{
+
+    height: 5vh;
+    font-size: 14px;
+    align-items: center;
+}
+#create_link{
+    font-weight: bold;
+    font-size: 14px;
+    color:#1c1e21;
+    text-decoration: none;
+}
+
+#create_acc{
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color:#fff;
+    font-weight: bold;
+}
+
+#login{
+    width: 100%;
+    background-color: #0866ff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    height: 5vh;
+    font-weight: bold;
+}
+#center{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+hr{
+    width: 100%;
+}
