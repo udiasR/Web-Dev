@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box; margin: 0; padding: 0;
+    /*display: flex;*/
+    /*!*flex-direction: column;*!*/
+    /*justify-content: space-between;*/
+
+}
+
+.logo{
+    color:#1DB954;
+
+}
+hr{
+    width: 30%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1e21;
+    color: white;
+}
+
+header a:hover{
+    color: green;
+}
+
+#special{
+    display: flex;
+    flex-direction: column;
+
+}
+#special hr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+main section #login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 450px;
+    margin: auto;
+    background-color: darkblue;
+}
+main section #login a{
+    color: green;
+
+}
+
+main section #login input{
+    width: 100%;
+    border: #1c1e21 solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+main section #login input:focus{
+    background-color: red;
+
+}
+
+#btn-login{
+    background-color: green;
+    color: white;
+    width: 100%;
+    text-align: center;
+    border: none;
+
+}
+
+.plan-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#pricing{
+    display: flex;
+
+
+}
+
+#pricing div{
+    display: flex;
+    border: #1c1e21 solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.featured{
+    display: flex;
+    border: green solid 1px;
+    background-color: lightgray;
+}
+
+
+footer{
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #191414;
+    color: lightgray;
+
+}
+strong{
+    color: white;
+}
