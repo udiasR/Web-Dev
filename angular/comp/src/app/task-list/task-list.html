@@ -1,0 +1,44 @@
+<fieldset>
+  <input type="text" [(ngModel)]="currentTask.name">
+  <button type="button" (click)="addTask()">add</button>
+</fieldset>
+
+
+
+<div>
+  <h2>New todos</h2>
+  @if(tasks.length){
+    <ul >
+      @for (i of tasks; track i.id) {
+        <li>
+          <app-task-item
+            [task]="i"
+            (remove)="onRemoveTask($event)"
+            (done)="addDone($event)"
+          >
+          </app-task-item>
+        </li>
+      }
+    </ul>
+  } @else {
+    <p>list is empty</p>
+  }
+</div>
+
+<div>
+  <h2>Done todos</h2>
+  @if(doneTasks.length){
+    <ul>
+      @for(i of doneTasks; track i){
+        <li>
+          <app-task-item
+            [task]="i"
+            (done)="addDone($event)"
+          >
+          </app-task-item>
+        </li>
+      }
+    </ul>
+  }
+</div>
+

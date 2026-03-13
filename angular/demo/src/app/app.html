@@ -1,0 +1,36 @@
+<h1>Hello {{num*20}}</h1>
+<router-outlet />
+@for (i of nums; track i) {
+  <li>
+    {{i}}
+  </li>
+}
+
+
+@for(i of students; track i){
+  <ul>
+    <li>
+      {{i}}
+    </li>
+  </ul>
+}
+
+
+@if(ok){
+  <button type="submit" (click)="btnIncrease()">{{this.cnt}}</button>
+}
+
+<input type="text" [(ngModel)]="message"/>
+
+<h1>{{message}}</h1>
+
+
+<input type="text" [(ngModel)] = message>
+<button type="submit" (click)="addItem(message)">Add item</button>
+
+  @for(i of items; track i){
+    <ul>
+      <li>{{i}}</li>
+      <button (click)="removeItem(i)">remove</button>
+    </ul>
+  }
